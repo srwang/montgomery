@@ -135,7 +135,10 @@ a:active {
   right: 10px;
 }
 .book-info {
-	margin: 5px 0;
+	margin: 70px 0;
+}
+.book-info:first-child, .book-info:nth-child(2) {
+	margin: 0;
 }
 .book-img img {
 	clear: both;
